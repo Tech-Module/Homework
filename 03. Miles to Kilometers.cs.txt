@@ -1,0 +1,16 @@
+using System;
+
+namespace MilesToKilometers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Double mile = 1.60934;
+            Double miles = Double.Parse(Console.ReadLine());
+
+            double sum = miles * mile;
+            Console.WriteLine($"{sum:F02}");
+        }
+    }
+}
