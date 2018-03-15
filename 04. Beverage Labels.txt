@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Beverage_Labels
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            int ml = int.Parse(Console.ReadLine());
+            int kcal = int.Parse(Console.ReadLine());
+            int g = int.Parse(Console.ReadLine());
+
+            double totalKcal = (kcal / 100.0) * ml;
+            double totalg = (g / 100.0) * ml;
+
+            Console.WriteLine($"{ml}ml {name}:");
+            Console.WriteLine($"{totalKcal}kcal, {totalg}g sugars");
+        }
+    }
+}
