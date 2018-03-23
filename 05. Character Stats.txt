@@ -6,16 +6,20 @@ namespace CharacterStats
     {
         static void Main(string[] args)
         {
+		//the following five lines are read from the console: name, health, healthMax,energy and energyMax
+
             string name = Console.ReadLine();
             int health = int.Parse(Console.ReadLine());
             int healthMax = int.Parse(Console.ReadLine());
             int energy = int.Parse(Console.ReadLine());
             int energyMax = int.Parse(Console.ReadLine());
+		
+		//Now we calculate currentHealth and currentEnergy
 
             string currentHealth = new string('|', health) + new string('.', healthMax - health);
             string currentEnergy = new string('|', energy) + new string('.', energyMax - energy);
 
-
+		//We print name, Health and Energy
             Console.WriteLine($"Name: {name}");
             Console.WriteLine("Health: "+"|"+currentHealth + "|");
             Console.WriteLine("Energy: "+"|"+currentEnergy + "|");
