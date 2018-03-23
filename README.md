@@ -49,7 +49,8 @@ character after the decimal point**.
 
 61.65
 
-1. Miles to Kilometers 
+### Problem 3.
+ Miles to Kilometers 
 
 Write a program, which
 **converts****miles** to **kilometers**. **Format** the
@@ -209,7 +210,8 @@ Nuka-Cola Quantum
 
 2100kcal, 490g sugars
 
-5. * Character Stats 
+### Problem 5.
+ * Character Stats 
 
 Write a program, which
 **displays information** about a video game character. You will
