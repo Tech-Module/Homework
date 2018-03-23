@@ -10,10 +10,12 @@ namespace Rectangle_Area
     {
         static void Main(string[] args)
         {
+			//We recieve from the Console width and heigh -> double;
             double width = double.Parse(Console.ReadLine());
             double heigh = double.Parse(Console.ReadLine());
+			//We calculate area; 
             double area = width * heigh;
-
+			//We print area;
             Console.WriteLine($"{area:f2}");
         }
     }

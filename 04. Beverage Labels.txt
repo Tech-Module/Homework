@@ -10,15 +10,18 @@ namespace Beverage_Labels
     {
         static void Main(string[] args)
         {
+			//We recieve from the Console name -> string;
             string name = Console.ReadLine();
+			//We recieve from the Console ml,kcal,g -> int;
             int ml = int.Parse(Console.ReadLine());
             int kcal = int.Parse(Console.ReadLine());
             int g = int.Parse(Console.ReadLine());
-
+			//We calculate totalKcal and totalg -> double;
             double totalKcal = (kcal / 100.0) * ml;
             double totalg = (g / 100.0) * ml;
-
+			//We print ml and name
             Console.WriteLine($"{ml}ml {name}:");
+			//We print totalKcal and totalg;
             Console.WriteLine($"{totalKcal}kcal, {totalg}g sugars");
         }
     }
