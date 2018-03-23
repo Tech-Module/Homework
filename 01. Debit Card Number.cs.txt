@@ -7,7 +7,7 @@ namespace DebitCardNumber
         static void Main(string[] args)
         {
             // We receive from the Console 4 numbers -> integers
-            firstDigits a = int.Parse(Console.ReadLine());
+            int firstDigit = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
