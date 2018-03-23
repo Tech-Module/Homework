@@ -17,12 +17,12 @@ namespace CharacterStats
 		//Now we calculate currentHealth and currentEnergy
 
             string currentHealth = new string('|', health) + new string('.', healthMax - health);
-            string currentEnergy = new string('|', energy) + new string('.', energyMax - energy);
+            string currentPower = new string('|', energy) + new string('.', energyMax - energy);
 
 		//We print name, Health and Energy
             Console.WriteLine($"Name: {name}");
             Console.WriteLine("Health: "+"|"+currentHealth + "|");
-            Console.WriteLine("Energy: "+"|"+currentEnergy + "|");
+            Console.WriteLine("Energy: "+"|"+currentPower + "|");
 
 
         }

@@ -10,8 +10,8 @@ namespace MilesToKilometers
             Double mile = 1.60934;
             Double miles = Double.Parse(Console.ReadLine());
 		// now we find the amount and print 
-            double sum = miles * mile;
-            Console.WriteLine($"{sum:F02}");
+            double total = miles * mile;
+            Console.WriteLine($"{total:F02}");
         }
     }
 }
