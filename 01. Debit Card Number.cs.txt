@@ -6,11 +6,13 @@ namespace DebitCardNumber
     {
         static void Main(string[] args)
         {
+            // We receive from the Console 4 numbers -> integers
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
 
+            // We print them in 4-digit debit card format
             Console.WriteLine($"{a:D4} {b:D4} {c:D4} {d:D4}");
         }
     }
