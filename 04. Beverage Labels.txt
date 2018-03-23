@@ -15,7 +15,7 @@ namespace Beverage_Labels
 			//We recieve from the Console ml,kcal,g -> int;
             int ml = int.Parse(Console.ReadLine());
             int kcal = int.Parse(Console.ReadLine());
-            int g = int.Parse(Console.ReadLine());
+            int gram = int.Parse(Console.ReadLine());
 			//We calculate totalKcal and totalg -> double;
             double totalKcal = (kcal / 100.0) * ml;
             double totalg = (g / 100.0) * ml;
