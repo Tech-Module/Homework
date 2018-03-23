@@ -12,7 +12,7 @@ namespace DebitCardNumber
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
 
-            // We print them  in 4-digit debit card format
+            // We print them in 4-digit debit card format
             Console.WriteLine($"{a:D4} {b:D4} {c:D4} {d:D4}");
         }
     }
