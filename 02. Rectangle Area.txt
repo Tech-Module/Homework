@@ -16,7 +16,7 @@ namespace Rectangle_Area
 			//We calculate area; 
             double resultArea = width * heigh;
 			//We print area;
-            Console.WriteLine($"{area:f2}");
+            Console.WriteLine($"{resultArea:f2}");
         }
     }
 }
