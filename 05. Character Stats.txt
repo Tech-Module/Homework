@@ -1,3 +1,4 @@
+//CONFIRMED from <mariastoilova>
 using System;
 
 namespace CharacterStats
